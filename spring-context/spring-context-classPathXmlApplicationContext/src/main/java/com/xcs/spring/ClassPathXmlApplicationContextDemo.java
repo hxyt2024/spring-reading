@@ -1,7 +1,11 @@
 package com.xcs.spring;
 
 import com.xcs.spring.bean.MyBean;
+import org.springframework.beans.BeanMetadataElement;
+import org.springframework.beans.MutablePropertyValues;
+import org.springframework.beans.factory.config.ConstructorArgumentValues;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.AttributeAccessor;
 
 /**
  * @author xcs
@@ -14,3 +18,4 @@ public class ClassPathXmlApplicationContextDemo {
         System.out.println("MyBean = " + context.getBean(MyBean.class));
     }
 }
+

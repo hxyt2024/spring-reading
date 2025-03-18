@@ -49,7 +49,7 @@ public class AutowireCapableBeanFactoryDemo {
         // applyBeanPropertyValues(beanFactory);
 
         // 初始化给定的Bean实例
-        // initializeBean(beanFactory);
+         initializeBean(beanFactory);
 
         // 销毁给定的Bean实例
         // destroyBean(beanFactory);
